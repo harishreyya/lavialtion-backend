@@ -8,8 +8,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-// MongoDB connection
-mongoose.connect('mongodb://localhost:27017/multiStepForm', {
+// mongodb+srv://hari:hari@cluster0.hsmpfuf.mongodb.net/multiStepForm?retryWrites=true&w=majority
+mongoose.connect('mongodb+srv://hari:hari@cluster0.hsmpfuf.mongodb.net/multiStepForm?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
