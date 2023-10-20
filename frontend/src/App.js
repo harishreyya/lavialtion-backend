@@ -4,7 +4,6 @@ import LoginForm from './components/LoginForm';
 import RegistrationForm from './components/RegistrationForm';
 import MultiStepForm from './components/MultiStepForm';
 import SubmissionTable from './components/SubmissionTable';
-// import Home from './Home';
 import "./App.css"
 
 const App = () => {
